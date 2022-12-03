@@ -1,42 +1,36 @@
 <a name="Megatron-ChatBot"></a>
 
 <!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-<!--*** [![Contributors][contributors-shield]][contributors-url]-->
-<!---[![Forks][forks-shield]][forks-url]--->
+<!--*** [![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![MIT License][license-shield]][license-url]--->
 
-
+<!-- SOCIALS -->
+<a href = "https://www.linkedin.com/in/hakeem-atyab/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href = "mailto: hakeematyab.mobile@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="[https://github.com/github_username/repo_name](https://github.com/Intuitive-Brilliance/Megatron-ChatBot)">
-    <img src="https://camo.githubusercontent.com/29d8540b89fb65e921fddb15d798dca844dfa0a78768f2db947a9b9349d89101/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313230302f312a39493645494c354e47323041387365356166566d4f672e676966" alt="Logo" width="80" height="80">
+  <a href="[https://github.com/Intuitive-Brilliance/Megatron-ChatBot](https://github.com/Intuitive-Brilliance/Megatron-ChatBot)">
+    <img src="https://camo.githubusercontent.com/29d8540b89fb65e921fddb15d798dca844dfa0a78768f2db947a9b9349d89101/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313230302f312a39493645494c354e47323041387365356166566d4f672e676966" alt="Logo" width="120" height="120">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">Megatron ChatBot</h3>
 
   <p align="center">
-    project_description
+     A customized ChatBot built using DistilBERT algorithm capable of facilitating customer queries and directing them to their destination.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+<!--<a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/github_username/repo_name">View Demo</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
+<!--     <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>-->
   </p>
 </div>
 
@@ -75,7 +69,9 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
+When customers visit a website, they often have many questions and concerns before making a purchase. This means that a customer service representative must be available to provide reassurance and answer their questions. However, it can be costly to have a team of representatives available to assist with the large number of customers a website may receive, especially since many of the questions are repetitive. 
+
+The Megatron ChatBot can help with this. Trained using the state-of-the-art DistilBERT algorithm and extensive customer query data, the chatbot can provide a wide range of answers, from finding solutions in its own database to searching the web for answers. In the rare case that the chatbot is unable to help, a customer service representative will be assigned to assist the customer directly.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -83,7 +79,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 ### Built With
 
-* [![Next][Next.js]][Next-url]
+* [![Pyhton][python.org]][Python-url]
 * [![React][React.js]][React-url]
 * [![Vue][Vue.js]][Vue-url]
 * [![Angular][Angular.io]][Angular-url]
@@ -235,4 +231,4 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
-
+[Python-url]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
