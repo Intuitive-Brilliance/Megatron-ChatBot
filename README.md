@@ -21,7 +21,7 @@
 <h3 align="center">Megatron ChatBot</h3>
 
   <p align="center">
-     A customized ChatBot built using DistilBERT algorithm capable of facilitating customer queries and directing them to their destination.
+     A ChatBot, built using the transformer-based DistilBERT algorithm, tailored to assist customers with their inquiries and guide them to the appropriate destination.
     <br />
 <!--<a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
@@ -58,7 +58,7 @@
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+<!---    <li><a href="#acknowledgments">Acknowledgments</a></li>--->
   </ol>
 </details>
 
@@ -79,14 +79,19 @@ The Megatron ChatBot can help with this. Trained using the state-of-the-art Dist
 
 ### Built With
 
-* [![Pyhton][python.org]][Python-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,32 +100,22 @@ The Megatron ChatBot can help with this. Trained using the state-of-the-art Dist
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Install the requirements.txt file and run the application.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
+* Run
   ```sh
-  npm install npm@latest -g
+  pip install -r requirements.txt
   ```
 
 ### Installation
+A number of paid API's are used:
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
+1. Google translation API.
+2. Google location API.
+3. Google text to speech and speech to text API.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -129,9 +124,9 @@ This is an example of how to list things you need to use the software and how to
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+The ChatBot can be deployed on any website of your choice, however, the files need to be configures appropriately.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+<!---_For more examples, please refer to the [Documentation](https://example.com)_--->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,12 +135,15 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
+- [ ] Integration into any website
+- [ ] Text to speech and speech to text functionality
+- [ ] Translation funcationality
+- [ ] Admin panel for customized future modification
+  - [ ] U.I
+  - [ ] Retraining
+  - [ ] Addition and modification of pipelines
 
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
+<!---See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).--->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -181,21 +179,20 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
-
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+<a href = "https://www.linkedin.com/in/hakeem-atyab/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href = "mailto: hakeematyab.mobile@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- ACKNOWLEDGMENTS -->
+<!-- ACKNOWLEDGMENTS 
 ## Acknowledgments
 
 * []()
 * []()
 * []()
-
+-->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
