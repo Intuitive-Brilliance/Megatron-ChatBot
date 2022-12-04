@@ -66,8 +66,11 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<div align="center">
+  <a href="[https://github.com/Intuitive-Brilliance/Megatron-ChatBot](https://github.com/Intuitive-Brilliance/Megatron-ChatBot)">
+    <img src="https://user-images.githubusercontent.com/88573121/205492616-696f4420-1e90-4f3b-b0a1-68f3fe5db3b2.png" width="720eight="184
+  </a>
+</div>
 
 When customers visit a website, they often have many questions and concerns before making a purchase. This means that a customer service representative must be available to provide reassurance and answer their questions. However, it can be costly to have a team of representatives available to assist with the large number of customers a website may receive, especially since many of the questions are repetitive. 
 
